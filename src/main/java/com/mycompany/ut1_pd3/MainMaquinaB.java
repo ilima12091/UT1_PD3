@@ -22,5 +22,8 @@ public class MainMaquinaB {
         perro.ladrar();
         System.out.println(perro.respondeA("PerroTest"));
         System.out.println(perro.respondeA("Test"));
+        
+        gato.maullar();
+        gato.correr();
     }
 }
