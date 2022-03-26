@@ -10,7 +10,7 @@ package com.mycompany.ut1_pd3;
  */
 public interface Mamifero {
     public String getNombre();
-    public boolean respondeA();
+    public boolean respondeA(String unNombre);
     
     public void caminar();
     public void correr();
