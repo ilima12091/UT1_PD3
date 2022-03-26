@@ -8,8 +8,15 @@ package com.mycompany.ut1_pd3;
  *
  * @author Ignacio
  */
-public class MainMaquinaA {
+public class MainMaquinaB {
+
     public static void main(String[] args) {
+        Gato gato = new Gato("GatoTest");
+        System.out.println(gato.getNombre());
+        gato.maullar();
+        System.out.println(gato.respondeA("GatoTest"));
+        System.out.println(gato.respondeA("Test"));
+        
         Perro perro = new Perro("PerroTest");
         System.out.println(perro.getNombre());
         perro.ladrar();
