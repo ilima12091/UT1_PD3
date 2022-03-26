@@ -25,5 +25,8 @@ public class MainMaquinaB {
         
         gato.maullar();
         gato.correr();
+
+        perro.caminar();
+        perro.saltar();
     }
 }
