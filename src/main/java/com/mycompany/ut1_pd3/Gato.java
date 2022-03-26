@@ -8,13 +8,14 @@ package com.mycompany.ut1_pd3;
  *
  * @author Ignacio
  */
-public class Gato {
+public class Gato implements Mamifero {
     public String nombre;
     
     public Gato(String nombre) {
         this.nombre = nombre;
     }
     
+    @Override
     public String getNombre() {
         return this.nombre;
     }
@@ -23,7 +24,23 @@ public class Gato {
         System.out.println("miau");
     }
     
+    @Override
     public boolean respondeA(String nombre) {
         return false;
+    }
+    
+    @Override
+    public void caminar() {
+        System.out.println(this.nombre + " está caminando");
+    }
+
+    @Override
+    public void correr() {
+        System.out.println(this.nombre + " está corriendo");
+    }
+
+    @Override
+    public void saltar() {
+        System.out.println(this.nombre + " está saltando");
     }
 }
