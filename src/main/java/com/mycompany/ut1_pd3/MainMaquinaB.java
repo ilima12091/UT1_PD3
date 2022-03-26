@@ -16,5 +16,11 @@ public class MainMaquinaB {
         gato.maullar();
         System.out.println(gato.respondeA("GatoTest"));
         System.out.println(gato.respondeA("Test"));
+        
+        Perro perro = new Perro("PerroTest");
+        System.out.println(perro.getNombre());
+        perro.ladrar();
+        System.out.println(perro.respondeA("PerroTest"));
+        System.out.println(perro.respondeA("Test"));
     }
 }
